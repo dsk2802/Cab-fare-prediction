@@ -6,13 +6,6 @@ x = c("ggplot2", "corrgram", "DMwR", "usdm", "caret", "randomForest", "e1071",
 lapply(x, require, character.only = TRUE)
 rm(x)
 
-# The details of data attributes in the dataset are as follows:
-# pickup_datetime - timestamp value indicating when the cab ride started.
-# pickup_longitude - float for longitude coordinate of where the cab ride started.
-# pickup_latitude - float for latitude coordinate of where the cab ride started.
-# dropoff_longitude - float for longitude coordinate of where the cab ride ended.
-# dropoff_latitude - float for latitude coordinate of where the cab ride ended.
-# passenger_count - an integer indicating the number of passengers in the cab ride.
 
 
 # loading datasets
